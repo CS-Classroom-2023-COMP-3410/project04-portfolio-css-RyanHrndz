@@ -3,29 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ryan Erik Hernandez's portfolio website showcasing skills, hobbies, and projects.">
+  <meta name="description" content="Ryan Erik Hernandez's portfolio website showcasing skills, hobbies, and projects with a Spider-Man theme.">
   <title>Home - Ryan Erik Hernandez</title>
   <style>
+    /* General Styling */
     body {
-      background-color: lightblue;
-      font-family: Arial, sans-serif;
-      color: darkgreen;
+      background-color: #f5f5f5;
+      font-family: 'Comic Sans MS', 'Arial', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
     }
-    h1 {
-      color: darkblue;
+
+    /* Spider-Man Themed Background */
+    body {
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* A subtle web-like background */
+      background-color: #ff0000; /* Spider-Man red */
     }
-    h2 {
-      color: darkred;
+
+    /* Header Section */
+    header {
+      background-color: #001f3f; /* Spider-Man blue */
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
     }
-    a {
-      color: green;
+    header h1 {
+      color: #f5f5f5;
+      font-size: 2.5em;
+    }
+    header p {
+      color: #f5f5f5;
+      font-size: 1.2em;
+    }
+
+    /* Navigation Section */
+    nav {
+      background-color: #333; /* Black for Spider-Man's webbing */
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #ffcc00; /* Gold for contrast */
+      font-size: 1.2em;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
-      text-decoration: underline;
+    nav ul li a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffcc00;
     }
+
+    /* Main Section */
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    main h2 {
+      color: #ff0000; /* Spider-Man red */
+      text-shadow: 2px 2px 5px black;
+    }
+    main p {
+      color: #333;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    /* Footer Section */
     footer {
-      color: gray;
+      background-color: #001f3f; /* Spider-Man blue */
+      color: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+    footer small {
+      color: #ffcc00; /* Gold text */
     }
   </style>
 </head>
@@ -33,13 +97,12 @@
   <!-- Header Section -->
   <header>
     <h1>Welcome to My Portfolio</h1>
-    <p>A showcase of my skills, hobbies, and projects.</p>
+    <p>A showcase of my skills, hobbies, and projects with a Spider-Man twist.</p>
     <hr>
   </header>
 
   <!-- Navigation Section -->
   <nav aria-label="Main Navigation">
-    <h2>Explore My Website</h2>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about/about.html">About Me</a></li>
@@ -47,7 +110,6 @@
       <li><a href="projects/projects.html">Projects</a></li>
       <li><a href="gallery/gallery.html">Gallery</a></li>
     </ul>
-    <hr>
   </nav>
 
   <!-- Main Section -->
@@ -67,7 +129,7 @@
   <footer>
     <hr>
     <p>&copy; 2025 Ryan Erik Hernandez</p>
-    <p><small>I am also a very big fan of Spider-Man.</small></p>
+    <p><small>Dedicated to Spider-Man 🕸️</small></p>
   </footer>
 </body>
 </html>

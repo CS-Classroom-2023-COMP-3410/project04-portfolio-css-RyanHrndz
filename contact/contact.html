@@ -3,12 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Ryan Erik Hernandez with a Venom-inspired theme.">
   <title>Contact - Ryan Erik Hernandez</title>
+  <style>
+    /* General Styling */
+    body {
+      background-color: #1a1a1a; /* Venom black background */
+      font-family: 'Arial', sans-serif;
+      color: #e6e6e6; /* Light gray for text */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Section */
+    header {
+      background-color: #4b0082; /* Venom-inspired purple */
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    /* Navigation Section */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #333; /* Dark gray for the navbar */
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #4b0082; /* Purple links */
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    nav ul li a:hover {
+      color: white;
+      text-shadow: 0 0 5px #4b0082;
+    }
+
+    /* Main Section */
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    main h2 {
+      color: #4b0082; /* Purple headings */
+      text-shadow: 2px 2px 5px black;
+    }
+    main p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    form {
+      background-color: #262626; /* Dark gray form background */
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+      display: inline-block;
+      margin-top: 20px;
+      color: #e6e6e6;
+    }
+    label {
+      display: block;
+      text-align: left;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #4b0082;
+      border-radius: 50px;
+      background-color: #333;
+      color: white;
+    }
+    button {
+      background-color: #4b0082;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover {
+      background-color: #6a0dad; /* Lighter purple for hover */
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #333; /* Dark gray footer */
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Header Section -->
   <header>
-    <h1>Contact Me</h1>
+    <h1>Contact Me </h1>
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -27,13 +132,13 @@
       <p>If you’d like to reach out, please fill out the form below, and I’ll get back to you soon!</p>
       <form action="mailto:ryanhernandezcollege@gmail.com" method="get">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
         <button type="submit">Send</button>
       </form>
@@ -44,6 +149,7 @@
   <footer>
     <hr>
     <p>&copy; 2025 Ryan Erik Hernandez</p>
+    <p>Dedicated to Venom 🕸️</p>
   </footer>
 </body>
 </html>
